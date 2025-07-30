@@ -5,7 +5,6 @@ import { AgGridReact } from "ag-grid-react";
 export default function List() {
   const [rowData, setRowData] = useState();
 
-  // Apply settings across all columns
   const defaultColDef = useMemo(() => ({
     filter: true, // Enable filtering on all columns
   }));
